@@ -12,3 +12,6 @@ jobs:
       - name: Echo "Hello User"
         run: |
           echo "Hola CRVC"
+      - name: "Say current date"
+        run: date
+      - run: ls -l
